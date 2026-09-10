@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Mencoding Preservation Restoration Experts Group</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap">
+  <style>
+    .flag {
+      font-family: "Noto Color Emoji", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
+    }
+
+    :root {
+      --bg: #09090b;
+      --bg2: #000000;
+      --text: #fafafa;
+      --muted: #a1a1aa;
+      --border: #27272a;
+      --card: #111113;
+      --ring: #27272a;
+    }
+
+    body {
+      position: relative;
+      background-color: var(--bg);
+      background-image:
+        radial-gradient(70% 50% at 15% 0%, rgba(99, 102, 241, .20), transparent 60%),
+        radial-gradient(60% 40% at 100% 20%, rgba(56, 189, 248, .14), transparent 60%),
+        linear-gradient(180deg, rgba(9, 9, 11, .90) 0%, rgba(9, 9, 11, .94) 40%, rgba(9, 9, 11, .97) 100%),
+        url(images/bg-bridge.avif);
+      background-size: auto, auto, auto, cover;
+      background-position: center, center, center, center;
+      background-attachment: fixed, fixed, fixed, fixed;
+      background-repeat: no-repeat;
+      color: var(--text);
+      font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: inherit;
+      filter: blur(16px) brightness(.85);
+      transform: scale(1.08);
+      z-index: -1;
+    }
+
+    .grid-bg {
+      background-image:
+        linear-gradient(to right, var(--border) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--border) 1px, transparent 1px);
+      background-size: 64px 64px;
+      -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, black 40%, transparent 100%);
+      mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, black 40%, transparent 100%);
+    }
+
+    .glow {
+      background: radial-gradient(60% 50% at 50% 0%, rgba(99, 102, 241, .18), transparent 70%);
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .border-c {
+      border-color: var(--border);
+    }
+
+    .btn {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      transition: background .15s, border-color .15s;
+    }
+
+    .statement {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .bleed {
+      width: 100%;
+      min-height: 100vh;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="relative overflow-hidden">
+    <div class="absolute inset-0 grid-bg pointer-events-none"></div>
+    <div class="absolute inset-0 glow pointer-events-none"></div>
+
+    <header class="relative max-w-3xl mx-auto px-8 pt-24">
+      <div class="text-lg md:text-xl tracking-widest uppercase muted">Mencoding Preservation Restoration Experts Group
+      </div>
+    </header>
+
+    <section class="relative max-w-3xl mx-auto px-8 min-h-screen flex flex-col justify-center">
+      <h1 class="text-5xl md:text-6xl leading-[1.15] font-medium tracking-tight mb-10 max-w-2xl">
+        We're rewriting the rules for how media gets made, restored, and remembered.
+      </h1>
+      <p class="muted text-lg max-w-xl mb-12">
+        AI-powered engineering that moves at breakneck speed — turning what used to take teams of engineers into a
+        single,
+        relentless pipeline.
+      </p>
+      <div class="flex gap-4 flex-wrap">
+        <a href="https://github.com/mpreg-ca" target="_blank" rel="noopener" class="btn px-6 py-3 text-sm font-medium"
+          style="background:var(--text);color:var(--bg);border-color:var(--text)">
+          Get in touch on GitHub &rarr;
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <section class="max-w-4xl mx-auto px-8 min-h-screen flex flex-col justify-center text-center">
+    <h2 class="text-xs uppercase tracking-widest muted mb-16">What we are</h2>
+    <svg viewBox="0 0 640 240" class="w-full max-w-2xl mx-auto mb-16" fill="none" style="color:var(--text)">
+      <g stroke="currentColor" stroke-opacity=".22">
+        <line x1="40" y1="45" x2="140" y2="60" />
+        <line x1="40" y1="45" x2="140" y2="120" />
+        <line x1="40" y1="45" x2="140" y2="180" />
+        <line x1="40" y1="95" x2="140" y2="60" />
+        <line x1="40" y1="95" x2="140" y2="120" />
+        <line x1="40" y1="95" x2="140" y2="180" />
+        <line x1="40" y1="145" x2="140" y2="60" />
+        <line x1="40" y1="145" x2="140" y2="120" />
+        <line x1="40" y1="145" x2="140" y2="180" />
+        <line x1="40" y1="195" x2="140" y2="60" />
+        <line x1="40" y1="195" x2="140" y2="120" />
+        <line x1="40" y1="195" x2="140" y2="180" />
+
+        <line x1="140" y1="60" x2="240" y2="85" />
+        <line x1="140" y1="60" x2="240" y2="155" />
+        <line x1="140" y1="120" x2="240" y2="85" />
+        <line x1="140" y1="120" x2="240" y2="155" />
+        <line x1="140" y1="180" x2="240" y2="85" />
+        <line x1="140" y1="180" x2="240" y2="155" />
+
+        <line x1="240" y1="85" x2="320" y2="120" />
+        <line x1="240" y1="155" x2="320" y2="120" />
+        <line x1="320" y1="120" x2="400" y2="85" />
+        <line x1="320" y1="120" x2="400" y2="155" />
+
+        <line x1="400" y1="85" x2="500" y2="60" />
+        <line x1="400" y1="85" x2="500" y2="120" />
+        <line x1="400" y1="85" x2="500" y2="180" />
+        <line x1="400" y1="155" x2="500" y2="60" />
+        <line x1="400" y1="155" x2="500" y2="120" />
+        <line x1="400" y1="155" x2="500" y2="180" />
+
+        <line x1="500" y1="60" x2="600" y2="45" />
+        <line x1="500" y1="60" x2="600" y2="95" />
+        <line x1="500" y1="60" x2="600" y2="145" />
+        <line x1="500" y1="60" x2="600" y2="195" />
+        <line x1="500" y1="120" x2="600" y2="45" />
+        <line x1="500" y1="120" x2="600" y2="95" />
+        <line x1="500" y1="120" x2="600" y2="145" />
+        <line x1="500" y1="120" x2="600" y2="195" />
+        <line x1="500" y1="180" x2="600" y2="45" />
+        <line x1="500" y1="180" x2="600" y2="95" />
+        <line x1="500" y1="180" x2="600" y2="145" />
+        <line x1="500" y1="180" x2="600" y2="195" />
+      </g>
+
+      <g stroke="currentColor" stroke-opacity=".6" fill="var(--bg)">
+        <circle cx="40" cy="45" r="6" />
+        <circle cx="40" cy="95" r="6" />
+        <circle cx="40" cy="145" r="6" />
+        <circle cx="40" cy="195" r="6" />
+        <circle cx="140" cy="60" r="6" />
+        <circle cx="140" cy="120" r="6" />
+        <circle cx="140" cy="180" r="6" />
+        <circle cx="240" cy="85" r="7" />
+        <circle cx="240" cy="155" r="7" />
+
+        <circle cx="400" cy="85" r="7" />
+        <circle cx="400" cy="155" r="7" />
+        <circle cx="500" cy="60" r="6" />
+        <circle cx="500" cy="120" r="6" />
+        <circle cx="500" cy="180" r="6" />
+        <circle cx="600" cy="45" r="6" />
+        <circle cx="600" cy="95" r="6" />
+        <circle cx="600" cy="145" r="6" />
+        <circle cx="600" cy="195" r="6" />
+      </g>
+
+      <circle cx="320" cy="120" r="10" fill="#6366f1" stroke="#6366f1" />
+    </svg>
+    <p class="text-3xl md:text-4xl font-medium tracking-tight">We are the hidden layer — the force multiplier no one
+      sees.
+    </p>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-8 min-h-screen flex items-center">
+    <div class="grid md:grid-cols-3 gap-8 w-full">
+      <div class="card p-8">
+        <div class="text-2xl mb-8">🎞️</div>
+        <h3 class="font-medium mb-4">Video &amp; image coding</h3>
+        <p class="muted text-sm leading-relaxed">Elite-level mastery of codecs, compression, and format engineering —
+          pushed to the limit.</p>
+      </div>
+      <div class="card p-10">
+        <div class="text-2xl mb-8">🛠️</div>
+        <h3 class="font-medium mb-4">Media tooling</h3>
+        <p class="muted text-sm leading-relaxed">Battle-tested pipelines and software that encode, restore, and ship
+          media
+          at massive scale.</p>
+      </div>
+      <div class="card p-10">
+        <div class="text-2xl mb-8">🧠</div>
+        <h3 class="font-medium mb-4">AI-built tooling</h3>
+        <p class="muted text-sm leading-relaxed">Cutting-edge AI, weaponized to build faster, smarter tools for media
+          preservation and restoration.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-8 py-32 border-t border-c">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <div>
+        <div class="text-4xl md:text-5xl font-medium tracking-tight mb-2">10x</div>
+        <p class="muted text-sm">Faster restoration pipelines</p>
+      </div>
+      <div>
+        <div class="text-4xl md:text-5xl font-medium tracking-tight mb-2">24/7</div>
+        <p class="muted text-sm">Autonomous processing</p>
+      </div>
+      <div>
+        <div class="text-4xl md:text-5xl font-medium tracking-tight mb-2">0</div>
+        <p class="muted text-sm">Proprietary lock-in</p>
+      </div>
+      <div>
+        <div class="text-4xl md:text-5xl font-medium tracking-tight mb-2">&infin;</div>
+        <p class="muted text-sm">Formats we refuse to give up on</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-8 py-32 border-t border-c">
+    <h2 class="text-xs uppercase tracking-widest muted mb-16 text-center">How we work</h2>
+    <div class="grid md:grid-cols-4 gap-8">
+      <div>
+        <div class="text-xs muted mb-3">01</div>
+        <h3 class="font-medium mb-2">Ingest</h3>
+        <p class="muted text-sm leading-relaxed">Pull in media from any source, any format, any condition.</p>
+      </div>
+      <div>
+        <div class="text-xs muted mb-3">02</div>
+        <h3 class="font-medium mb-2">Analyze</h3>
+        <p class="muted text-sm leading-relaxed">AI models scan for damage, artifacts, and format quirks.</p>
+      </div>
+      <div>
+        <div class="text-xs muted mb-3">03</div>
+        <h3 class="font-medium mb-2">Restore</h3>
+        <p class="muted text-sm leading-relaxed">Denoise, upscale, and repair — automatically, at scale.</p>
+      </div>
+      <div>
+        <div class="text-xs muted mb-3">04</div>
+        <h3 class="font-medium mb-2">Ship</h3>
+        <p class="muted text-sm leading-relaxed">Deliver in open, future-proof formats built to last.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-8 py-32 border-t border-c text-center">
+    <h2 class="text-xs uppercase tracking-widest muted mb-12">What we work with</h2>
+    <div class="flex flex-wrap justify-center gap-3">
+      <span class="btn px-4 py-2 text-sm">AV1</span>
+      <span class="btn px-4 py-2 text-sm">H.265 / HEVC</span>
+      <span class="btn px-4 py-2 text-sm">VP9</span>
+      <span class="btn px-4 py-2 text-sm">FFmpeg</span>
+      <span class="btn px-4 py-2 text-sm">ONNX</span>
+      <span class="btn px-4 py-2 text-sm">PyTorch</span>
+      <span class="btn px-4 py-2 text-sm">JPEG XL</span>
+      <span class="btn px-4 py-2 text-sm">FLAC</span>
+      <span class="btn px-4 py-2 text-sm">Vulkan</span>
+      <span class="btn px-4 py-2 text-sm">CUDA</span>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-8 py-32 border-t border-c">
+    <h2 class="text-xs uppercase tracking-widest muted mb-16 text-center">Capabilities</h2>
+    <div class="grid md:grid-cols-2 gap-x-12 gap-y-6">
+      <div class="flex gap-4">
+        <span class="muted">01</span>
+        <p class="text-lg">Codec design and low-level compression engineering.</p>
+      </div>
+      <div class="flex gap-4">
+        <span class="muted">02</span>
+        <p class="text-lg">AI-driven upscaling, denoising, and artifact removal.</p>
+      </div>
+      <div class="flex gap-4">
+        <span class="muted">03</span>
+        <p class="text-lg">Automated archival pipelines for legacy media formats.</p>
+      </div>
+      <div class="flex gap-4">
+        <span class="muted">04</span>
+        <p class="text-lg">Frame-accurate restoration of damaged film and video.</p>
+      </div>
+      <div class="flex gap-4">
+        <span class="muted">05</span>
+        <p class="text-lg">Format conversion and transcoding at massive scale.</p>
+      </div>
+      <div class="flex gap-4">
+        <span class="muted">06</span>
+        <p class="text-lg">Custom tooling for studios, archives, and platforms.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-8 py-32 border-t border-c">
+    <h2 class="text-xs uppercase tracking-widest muted mb-16 text-center">FAQ</h2>
+    <div class="space-y-8">
+      <div>
+        <h3 class="font-medium mb-2">What kind of media do you work with?</h3>
+        <p class="muted text-sm leading-relaxed">Video, image, and film — from modern digital formats to legacy and
+          damaged archival media.</p>
+      </div>
+      <div>
+        <h3 class="font-medium mb-2">Do you build proprietary tools?</h3>
+        <p class="muted text-sm leading-relaxed">No. Our tools are built on open, non-proprietary standards wherever
+          possible.</p>
+      </div>
+      <div>
+        <h3 class="font-medium mb-2">How does AI fit into your process?</h3>
+        <p class="muted text-sm leading-relaxed">AI accelerates restoration and analysis, but every pipeline is
+          engineered
+          and reviewed by our team.</p>
+      </div>
+      <div>
+        <h3 class="font-medium mb-2">Can you work with our existing pipeline?</h3>
+        <p class="muted text-sm leading-relaxed">Yes — our tooling is designed to slot into existing studio and archival
+          workflows.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-8 py-32 border-t border-c text-center">
+    <h2 class="text-xs uppercase tracking-widest muted mb-8">Get in touch</h2>
+    <p class="text-xl md:text-2xl leading-relaxed max-w-xl mx-auto">
+      Have a media problem worth solving? We want to hear about it.
+    </p>
+  </section>
+
+  <section id="mission" class="statement px-8 border-t border-c">
+    <h2 class="sr-only">Mission</h2>
+    <p class="text-4xl md:text-6xl font-medium tracking-tight max-w-4xl leading-tight">
+      AI as raw leverage — a small team wielding the power of an army of engineers.
+    </p>
+  </section>
+
+  <section class="bleed relative" style="background-image:url(images/band-museum.avif)">
+    <div class="absolute inset-0" style="background:linear-gradient(to bottom, rgba(0,0,0,.05), rgba(0,0,0,.45))"></div>
+  </section>
+
+  <section class="statement px-8">
+    <p class="text-4xl md:text-6xl font-medium tracking-tight max-w-4xl leading-tight">
+      Models that hunt down artifacts, obliterate noise, and upscale on the fly — baked into every pipeline we ship.
+    </p>
+  </section>
+
+  <section class="bleed relative" style="background-image:url(images/band-filmstrip.avif)">
+    <div class="absolute inset-0" style="background:linear-gradient(to bottom, rgba(0,0,0,.05), rgba(0,0,0,.45))"></div>
+  </section>
+
+  <section class="statement px-8">
+    <p class="text-4xl md:text-6xl font-medium tracking-tight max-w-4xl leading-tight">
+      No hype, no vaporware — AI aimed squarely at the hardest problems in media, and nothing else.
+    </p>
+  </section>
+
+  <section class="bleed relative" style="background-image:url(images/band-barn.avif)">
+    <div class="absolute inset-0" style="background:linear-gradient(to bottom, rgba(0,0,0,.05), rgba(0,0,0,.45))"></div>
+  </section>
+
+  <section class="statement px-8">
+    <p class="text-4xl md:text-6xl font-medium tracking-tight max-w-4xl leading-tight">
+      AI is the engine. Sharp engineering judgment is the hand on the wheel.
+    </p>
+  </section>
+
+  <section class="statement px-8 pb-32">
+    <p class="text-4xl md:text-6xl font-medium tracking-tight max-w-4xl leading-tight">
+      Uncompromising engineering. Tools built to work — every time, at any scale.
+    </p>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-8 py-40 border-t border-c">
+    <h2 class="text-xs uppercase tracking-widest muted mb-16 text-center">Members</h2>
+    <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="card p-8 text-center">
+        <h3 class="font-medium mb-1">Samuel Leong</h3>
+        <p class="muted text-sm mb-1">Founder</p>
+        <p class="muted text-xs"><span class="flag">🇨🇦</span> Burnaby, BC</p>
+      </div>
+      <div class="card p-8 text-center">
+        <h3 class="font-medium mb-1">Colin Lee</h3>
+        <p class="muted text-sm mb-1">Co-Founder</p>
+        <p class="muted text-xs"><span class="flag">🇨🇦</span> Mississauga, ON</p>
+      </div>
+      <div class="card p-8 text-center">
+        <h3 class="font-medium mb-1">Joseph Lin</h3>
+        <p class="muted text-sm mb-1">Co-Founder</p>
+        <p class="muted text-xs"><span class="flag">🇺🇸</span> San Diego, CA</p>
+      </div>
+      <div class="card p-8 text-center">
+        <h3 class="font-medium mb-1">Dr. Eric Jenner</h3>
+        <p class="muted text-sm mb-1">Co-Founder</p>
+        <p class="muted text-xs"><span class="flag">🇦🇺</span> Sydney, NSW</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-8 py-40 border-t border-c text-center">
+    <h2 class="text-3xl md:text-5xl font-medium tracking-tight max-w-2xl mx-auto leading-tight">
+      Building the future of media doesn't wait. Neither do we.
+    </h2>
+  </section>
+</body>
