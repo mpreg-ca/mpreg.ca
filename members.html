@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Members — Mencoding Preservation and Restoration Experts Group</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap">
+  <style>
+    .flag {
+      font-family: "Noto Color Emoji", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
+    }
+
+    :root {
+      --bg: #09090b;
+      --bg2: #000000;
+      --text: #fafafa;
+      --muted: #a1a1aa;
+      --border: #27272a;
+      --card: #111113;
+      --ring: #27272a;
+    }
+
+    body {
+      position: relative;
+      background-color: var(--bg);
+      background-image:
+        radial-gradient(70% 50% at 15% 0%, rgba(99, 102, 241, .20), transparent 60%),
+        radial-gradient(60% 40% at 100% 20%, rgba(56, 189, 248, .14), transparent 60%),
+        linear-gradient(180deg, rgba(9, 9, 11, .90) 0%, rgba(9, 9, 11, .94) 40%, rgba(9, 9, 11, .97) 100%),
+        url(images/bg-bridge.avif);
+      background-size: auto, auto, auto, cover;
+      background-position: center, center, center, center;
+      background-attachment: fixed, fixed, fixed, fixed;
+      background-repeat: no-repeat;
+      color: var(--text);
+      font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: inherit;
+      filter: blur(16px) brightness(.85);
+      transform: scale(1.08);
+      z-index: -1;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .border-c {
+      border-color: var(--border);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="relative max-w-5xl mx-auto px-8 pt-24">
+    <div class="flex justify-between items-start gap-4">
+      <div class="text-lg md:text-xl tracking-widest uppercase muted">Mencoding Preservation and Restoration Experts Group
+      </div>
+      <a href="membres.html" class="muted text-sm hover:underline whitespace-nowrap">Français &rarr;</a>
+    </div>
+  </header>
+
+  <section class="max-w-5xl mx-auto px-8 py-16">
+    <a href="en.html" class="muted text-sm hover:underline">&larr; Home</a>
+    <h2 class="text-xs uppercase tracking-widest muted mt-12 mb-16 text-center">Members</h2>
+    <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="card p-8 text-center">
+        <h3 class="font-medium mb-1">Samuel Leong</h3>
+        <p class="muted text-sm mb-1">Founder</p>
+        <p class="muted text-xs"><span class="flag">🇨🇦</span> Burnaby, BC</p>
+      </div>
+      <div class="card p-8 text-center">
+        <h3 class="font-medium mb-1">Colin Lee</h3>
+        <p class="muted text-sm mb-1">Co-Founder</p>
+        <p class="muted text-xs"><span class="flag">🇨🇦</span> Mississauga, ON</p>
+      </div>
+      <div class="card p-8 text-center">
+        <h3 class="font-medium mb-1">Joseph Lin</h3>
+        <p class="muted text-sm mb-1">Co-Founder</p>
+        <p class="muted text-xs"><span class="flag">🇺🇸</span> San Diego, CA</p>
+      </div>
+      <div class="card p-8 text-center">
+        <h3 class="font-medium mb-1">Dr. Eric Jenner</h3>
+        <p class="muted text-sm mb-1">Co-Founder</p>
+        <p class="muted text-xs"><span class="flag">🇦🇺</span> Sydney, NSW</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="max-w-5xl mx-auto px-8 pb-16 text-center">
+  </footer>
+</body>
